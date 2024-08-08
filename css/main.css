@@ -5,3 +5,13 @@ body {
     padding: 0;
 }
 
+/* Navigation Bar  */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+}
