@@ -15,3 +15,28 @@ body {
 .navbar-nav .nav-link {
     margin-left: 1rem;
 }
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Welcome Section */
+section {
+    background-image: url(/images/headerimage.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+section h1 {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
