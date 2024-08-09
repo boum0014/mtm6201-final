@@ -1,11 +1,12 @@
 /* general styles */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Navigation Bar  */
+/* Navigation Bar */
 
 .navbar-brand {
     font-weight: bold;
@@ -21,11 +22,11 @@ body {
 }
 
 /* Welcome Section */
+
 section {
-    background-image: url(/images/headerimage.png);
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 5rem 0;
     text-align: center;
 }
@@ -40,3 +41,310 @@ section h1 {
     font-size: 3rem;
 }
 
+section p {
+
+    font-size: 1.25rem;
+}
+
+/* About Section  */
+
+#about {
+    padding: 5rem 0;
+}
+
+#about h2 {
+ 
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#about p {
+    font-size: 1.1rem;
+}
+
+/*Projects Section */
+
+#projects h2 {
+    font-size: 1.5rem;
+    
+}
+
+#projects .card-title {
+    font-size: 1rem;
+    
+    
+}
+
+#projects .card-text {
+    font-size: 0.875rem;
+    
+}
+
+/* Footer Section */
+    footer p {
+        font-size: 0.875rem;
+    }
+
+
+
+/*Desktop Styles */
+
+
+
+@media (min-width: 992px) {
+    #about h2 {
+        font-size: 2.5rem;
+    }
+
+    #about p {
+        font-size: 1.1rem;
+    }
+
+/* /* Button Styles */
+    .btn-click {
+    
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px; 
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    }
+    /* Hover Effect */
+
+    .btn-click:hover {
+    
+    background-color: magenta;
+    transform: translateY(-3px);
+    }   
+
+
+    /* Active/Click Effect */
+    .btn-click:active {
+        background-color: pink;
+    }
+
+
+/* Slide Animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 1s ease-out;
+}
+
+
+    #projects h2 {
+        font-size: 2.5rem;
+    }
+
+    #projects .card-title {
+        font-size: 1.25rem;
+    }
+
+    #projects .card-text {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+}
+
+/* Contact Section */
+
+#contact h2 {
+    font-size: 1.5rem;
+}
+
+#contact .form-label {
+    font-size: 0.875rem;
+}
+
+#contact .form-control {
+    margin-bottom: 0.75rem;
+}
+
+#contact .btn {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+
+}
+#contact .btn {
+
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px; 
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    }
+   
+    /* Hover Effect */
+
+#contact .btn:hover {
+    
+    background-color: magenta;
+    transform: translateY(-3px);
+    }   
+
+     /* Active/Click Effect */
+#contact .btn:active {
+    background-color: pink;
+}
+
+.map h1 {
+
+    padding-top: 2em;
+}
+
+iframe {
+    padding-top: 1em;
+}
+
+/* Footer Section */
+
+footer p {
+    font-size: 0.875rem;
+
+}
+}
+
+/* Mobile Styles */
+
+
+@media (max-width: 576px) {
+    
+    /*Welcome Section */
+    section h1 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 0.875rem;
+    }
+
+    /* About Section */
+    #about h2 {
+        font-size: 1.5rem;
+    }
+
+    #about p {
+        font-size: 0.875rem;
+    }
+
+/* Button Styles  */
+.btn-click {
+    
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px; 
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    }
+    /* Hover Effect */
+
+    .btn-click:hover {
+    
+    background-color: magenta;
+    transform: translateY(-3px);
+    }   
+
+
+    /* Active/Click Effect */
+    .btn-click:active {
+        background-color: pink;
+    }
+
+/* Slide Animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 1s ease-out;
+}
+
+    /* Projects Section */
+    #projects h2 {
+        font-size: 1.5rem;
+    }
+
+    #projects .card-title {
+        font-size: 1rem;
+        
+    }
+
+    #projects .card-text {
+        font-size: 0.875rem;
+    }
+
+    
+    /* Contact Section */
+    #contact h2 {
+        font-size: 1.5rem;
+    }
+
+    #contact .form-label {
+        font-size: 0.875rem;
+    }
+
+    #contact .form-control {
+        margin-bottom: 0.75rem;
+    }
+
+    
+    #contact .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    
+    }
+    #contact .btn {
+    
+        background-color: blueviolet;
+        color: white;
+        border-radius: 5px; 
+        border: none;
+        padding: 0.5rem 1rem;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    
+        }
+       
+        /* Hover Effect */
+    
+    #contact .btn:hover {
+        
+        background-color: magenta;
+        transform: translateY(-3px);
+        }   
+
+         /* Active/Click Effect */
+    #contact .btn:active {
+        background-color: pink;
+    }
+
+        
+    /* Footer Section */
+
+    footer p {
+        font-size: 0.875rem;
+    }
+}
